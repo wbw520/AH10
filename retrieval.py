@@ -32,7 +32,7 @@ def main():
     test_hash = np.array(f1["test_hash"])
     test_labels = np.array(f1["test_labels"])
 
-    index = 73
+    index = args.index
     query_sample = np.array([test_hash[index]])
     img_query = Image.open(query_dataset[index][0]).convert('RGB').resize([260, 260], resample=Image.BILINEAR)
     img_query.save(f"retrieval_results/query_{cls_name[int(test_labels[index])]}.png")

@@ -36,3 +36,4 @@ parser.add_argument('--device', default='cuda',
 # ========================= mAP Configs ==========================
 parser.add_argument('--R', type=int, default=10, help='MAP@R')
 parser.add_argument('--T', type=float, default=0, help='Threshold for binary')
+parser.add_argument('--index', type=int, default=72, help='selection for sample image')
