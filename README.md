@@ -2,6 +2,8 @@
 
 ##### Data Set
 Our dataset is available by contacting bowen.wang@is.ids.osaka-u.ac.jp 
+##### Data Samples
+![Samples](images/samples.png)
 
 ##### Training
 Using the following command
