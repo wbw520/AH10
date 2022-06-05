@@ -8,7 +8,7 @@ Our dataset is available by contacting bowen.wang@is.ids.osaka-u.ac.jp
 ##### Training
 Using the following command
 ```
-python main.py ----data_root [your root to place the dataset] --output_dir [root for dave the model]
+python main.py ----data_root [your root to place the dataset] --output_dir [root for save the model]
 ```
 
 ##### Evaluating
